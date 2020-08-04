@@ -25,7 +25,7 @@ const ImgDetail = (props) => {
   return (
     <View>
       <Image source={props.url}/>
-      <Text style={styles.textStyle}>{props.title}</Text>
+      <Text style={styles.textStyle}>{props.title} - {props.score}</Text>
     </View>
   );
 };
